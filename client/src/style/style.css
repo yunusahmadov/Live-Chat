@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Trebuchet MS';
+}
+.register-cont{
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    border-radius: 10px;
+    box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.75);
+}
+.input-container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+}
+.register-cont p{
+width: 100%;
+height: 50px;
+text-align: center;
+font-size: 30px;
+font-weight: 900;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.register-cont input{
+    height: 30px;
+    border: none;
+    width: 100%;
+    margin-top: 10px;
+    outline: none;
+    border-bottom: 1px solid black;
+    text-indent: 10px;
+}
+.loginpage{
+    width:100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-image: url('https://wallpaperaccess.com/full/2314983.jpg');
+    
+}
+header{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 20px 0;
+        font-family:'Trebuchet MS';
+}
+nav ul{
+    display: flex;
+    gap: 80px;
+}
+.name{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.contacts-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contacts-container input{
+    width: 300px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    outline: none;
+}
+
+.card{
+    width: 100%;
+    padding: 20px;
+    color: white;
+    position: relative;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+}
+.img-name{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.card ::after{
+    content: '';
+    height: 1px;
+    width: 98%;
+    background-color:white;
+    position: absolute;
+    bottom: 0;
+    left:10px;
+}
+.card img{
+    width: 60px;
+    height: 60px;
+}
+.add-to-users{
+    background-image: linear-gradient(to right, #4CB8C4 0%, #3CD3AD  51%, #4CB8C4  100%);
+    margin: 10px;
+    padding: 15px 35px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    border-radius: 10px;
+    display: block;
+    border: none;
+  }
+
+  .add-to-users:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+
+
+.button-cont{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+}
+.button-cont button{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background: rgb(29,0,36);
+    background: linear-gradient(90deg, rgba(29,0,36,1) 0%, rgba(99,9,121,1) 44%, rgba(255,0,211,1) 100%);
+}
+      
+.button-cont button {
+    background-image: linear-gradient(to right, #348F50 0%, #56B4D3  51%, #348F50  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+  }
+
+  .button-cont button:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+  .reg{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://wallpaperaccess.com/full/2314983.jpg');
+}
+.page{
+    width: 100%;
+    background-image: url('https://wallpaperaccess.com/full/4214216.jpg');
+}
+.page2{
+    width: 100%;
+    background-image: url('https://wallpaperaccess.com/full/4214216.jpg');
+height: 100vh;
+}
+ .contacts-container h1{
+    text-align: center;
+    color: white;
+ }
+.messages{
+width: 90%;
+height: 80vh;
+margin: 0 auto;
+background-color: white;
+border-radius: 20px;
+display: flex;
+}
+.left-users{
+    height: 100%;
+    width:30%;
+    background-color: rgb(56, 207, 106);
+    border-bottom-left-radius: 20px;
+border-top-left-radius: 20px;
+border-bottom-right-radius: 20px;
+overflow-y: scroll;
+
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+}
+.cart{
+    display: flex;
+    padding-top: 15px;
+    width: 100%;
+    padding-left: 20px;
+    align-items: center;
+    gap: 20px;
+    font-size: 25px;
+    font-weight: 600;
+    font-family:'Trebuchet MS';
+    color: white;
+    border-bottom: 1px solid gainsboro;
+    padding-bottom: 15px;
+    transition: .2s;
+}
+.cart:hover{
+    background-color: rgb(20, 173, 71);
+
+}
+.cart img{
+    width: 60px;
+    height: 60px;
+}
+.left-users input{
+    height: 40px;
+    width: 90%;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+    outline: none;
+    text-indent: 10px;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+.copy{
+    background: none;
+    padding: 5px;
+    height: 30px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.right-messages {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    justify-content: start;
+
+}
+.right-messages h1{
+    padding: 21px;
+    background-color: rgb(56, 207, 106);
+    border-top-right-radius: 20px;
+    color: white;
+}
+.chat{
+    width: 100%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.right-messages input{
+    outline: none;
+    width: 92%;
+    margin: 0 auto;
+    height: 30px;
+    border-radius: 20px;
+    border:2px solid rgb(56, 207, 106);
+    text-indent: 10px;
+    margin: 0;
+}
+.input-cont{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+.input-cont i {
+    color: rgb(56, 207, 106);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+
+  ::-webkit-scrollbar-thumb {
+    background: rgb(102, 228, 144);
+  }
+  
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(5, 160, 54);
+  }
+
+  .from_user{
+        background-color: #348F50;
+        margin-left: auto;
+        margin-top: 20px;
+    
+  }
+  
+  .to_user{
+    background-color: blue;
+    margin-right: auto;
+    margin-top: 20px;
+
+    
+  }
